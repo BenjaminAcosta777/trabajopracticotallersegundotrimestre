@@ -1,0 +1,127 @@
+/* ================== General ================== */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #121212; /* Fondo oscuro */
+    color: #f8f9fa; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+/* ================== Header ================== */
+.header-principal {
+    height: 400px;
+    background-image: url('img/header.jpg'); /* Imagen de cabecera */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Título sobre la cabecera */
+.titulo-hero {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff; /* Título blanco */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra negra */
+}
+
+/* ================== Navbar ================== */
+nav {
+    background-color: #1f1f1f !important; /* Navbar oscuro */
+}
+
+.navbar .nav-link {
+    color: #f8f9fa !important; /* Enlaces blancos */
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107 !important; /* Resaltado amarillo */
+}
+
+/* ================== Footer ================== */
+footer {
+    background-color: #1f1f1f;
+    color: #f8f9fa;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* ================== Secciones ================== */
+section, .container {
+    margin-bottom: 50px;
+}
+
+/* ================== Tarjetas ================== */
+.card {
+    border-radius: 10px;
+    background-color: #1e1e1e; /* Tarjetas oscuras */
+    color: #f8f9fa; /* Texto blanco dentro de tarjetas */
+}
+
+.sombra {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+}
+
+/* ================== Títulos ================== */
+h1, h2, h3, h4, h5 {
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ================== Párrafos y listas ================== */
+p, li {
+    color: #e0e0e0; /* Gris claro para leer mejor sobre fondo oscuro */
+}
+
+/* ================== Tablas ================== */
+table {
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    color: #f8f9fa;
+}
+
+table th {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+table td, table th {
+    padding: 10px;
+    text-align: center;
+    border-color: #444; /* Borde gris oscuro */
+}
+
+/* ================== Botones ================== */
+.btn {
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #343a40;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #495057;
+}
+
+/* ================== Imágenes ================== */
+.imagen-grande, .img-fluid.sombra {
+    display: block;          /* Para que la imagen esté en línea separada */
+    width: 100%;             /* Ocupa todo el ancho del contenedor */
+    max-width: 1200px;       /* Máximo ancho para no desbordar */
+    height: auto;            /* Mantiene proporción */
+    margin: 15px auto 30px;  /* Arriba 15px, abajo 30px, centrada horizontalmente */
+    border-radius: 10px;     /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Sombra suave */
+}
+
+/* ================== Responsividad ================== */
+@media (max-width: 768px) {
+    .titulo-hero {
+        font-size: 2rem;
+    }
+}

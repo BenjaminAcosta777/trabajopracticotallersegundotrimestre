@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligencia Artificial - Inicio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- AOS Animations -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><strong>Inteligencia Artificial</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="aplicaciones.html">Aplicaciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="ejemplos.html">Ejemplos</a></li>
+                <li class="nav-item"><a class="nav-link" href="recursos.html">Recursos</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<header class="header-principal d-flex justify-content-center align-items-center">
+    <h1 class="text-white titulo-hero" data-aos="zoom-in">Introducción a la Inteligencia Artificial</h1>
+</header>
+
+<div class="container my-5">
+
+    <!-- ¿Qué es la IA? -->
+    <section data-aos="fade-up">
+        <h2>¿Qué es la Inteligencia Artificial?</h2>
+        <p>
+            La <strong>Inteligencia Artificial (IA)</strong> es la disciplina de la informática que desarrolla sistemas capaces de realizar tareas que requieren inteligencia humana: aprender, razonar, resolver problemas y tomar decisiones. 
+        </p>
+        <p>
+            Los sistemas de IA utilizan algoritmos y modelos matemáticos para analizar grandes cantidades de datos, identificar patrones y realizar predicciones. Esto permite que máquinas y software “piensen” y tomen decisiones de manera autónoma.
+        </p>
+        <p>
+            Algunos ejemplos comunes de IA incluyen: asistentes virtuales como ChatGPT y Siri, motores de recomendación en Netflix o Spotify, sistemas de reconocimiento facial y herramientas de diagnóstico médico.
+        </p>
+        <img src="queeslaia.jpeg" class="img-fluid sombra" alt="Qué es IA">
+    </section>
+
+    <hr class="my-5">
+
+    <!-- Historia -->
+    <section data-aos="fade-up">
+        <h2>Línea histórica de la IA</h2>
+        <p>
+            La Inteligencia Artificial ha evolucionado rápidamente desde sus primeros conceptos en la década de 1950. Aquí se destacan algunos hitos importantes:
+        </p>
+        <table class="table table-bordered shadow">
+            <thead class="table-dark">
+                <tr>
+                    <th>Año</th>
+                    <th>Acontecimiento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1950</td><td>Alan Turing propone el Test de Turing para medir la inteligencia de las máquinas.</td></tr>
+                <tr><td>1956</td><td>La IA nace oficialmente con la conferencia de Dartmouth, donde se acuña el término "Inteligencia Artificial".</td></tr>
+                <tr><td>1997</td><td>Deep Blue, de IBM, derrota al campeón mundial de ajedrez Garry Kasparov.</td></tr>
+                <tr><td>2012</td><td>AlexNet y el Deep Learning revolucionan la visión artificial y el reconocimiento de imágenes.</td></tr>
+                <tr><td>2020-2024</td><td>Surgimiento de la IA generativa: modelos como GPT, DALL·E, Midjourney y ChatGPT transforman la creación de texto e imágenes.</td></tr>
+            </tbody>
+        </table>
+        <p>
+            Hoy en día, la IA se aplica en casi todos los campos de la vida diaria: desde la salud hasta la educación, la seguridad, el entretenimiento y la industria.
+        </p>
+        <img src="historiaia.jpg" class="img-fluid sombra" alt="Historia de IA">
+    </section>
+
+    <hr class="my-5">
+
+    <!-- Leyes en Argentina -->
+    <section data-aos="fade-up">
+        <h2>Leyes y regulaciones en Argentina</h2>
+        <p>
+            Aunque Argentina aún no tiene una ley específica sobre Inteligencia Artificial, la <strong>Ley de Protección de Datos Personales</strong> regula muchos aspectos del uso de datos por estos sistemas. Es fundamental garantizar que la IA se use de manera ética y segura.
+        </p>
+        <ul>
+            <li><strong>Transparencia algorítmica:</strong> los ciudadanos deben poder entender cómo se toman decisiones automatizadas.</li>
+            <li><strong>Reconocimiento facial:</strong> regulaciones para proteger la privacidad de las personas.</li>
+            <li><strong>Protección de menores:</strong> restringir el uso de datos sensibles de niños y adolescentes.</li>
+            <li><strong>Ética en automatización:</strong> garantizar que los sistemas automatizados no discriminen ni dañen a la sociedad.</li>
+        </ul>
+        <p>
+            Otros países también están creando marcos legales para IA, como la Unión Europea con su propuesta de "Reglamento de IA", que busca establecer reglas estrictas para IA de alto riesgo.
+        </p>
+        <img src="leyesia.jpeg" class="img-fluid sombra" alt="Leyes IA Argentina">
+    </section>
+
+    <hr class="my-5">
+
+    <!-- Categorías -->
+    <section data-aos="fade-up">
+        <h2>Categorías de IA</h2>
+        <p>
+            La Inteligencia Artificial se puede clasificar según sus funciones y aplicaciones. Las más destacadas incluyen:
+        </p>
+        <h4>1. Asistentes Inteligentes</h4>
+        <p>Ejemplos: ChatGPT, Siri. Estos sistemas ayudan a responder preguntas, escribir textos, programar tareas y organizar la información de manera inteligente.</p>
+
+        <h4>2. Generación de Contenido e Imágenes</h4>
+        <p>Ejemplos: DALL·E, Midjourney. Crean ilustraciones, diseños y contenido multimedia a partir de descripciones textuales, facilitando la creatividad y el marketing.</p>
+
+        <h4>3. Automatización Inteligente</h4>
+        <p>Ejemplos: UiPath, Blue Prism. Automatizan tareas repetitivas y administrativas, aumentando la productividad en empresas y organizaciones.</p>
+
+        <h4>4. IA en Medicina</h4>
+        <p>Ejemplos: Watson Health de IBM, algoritmos de diagnóstico de imágenes médicas. Permiten detectar enfermedades de manera temprana y personalizar tratamientos.</p>
+
+        <h4>5. IA en Finanzas</h4>
+        <p>Ejemplos: sistemas de trading automatizado, detección de fraudes. Analizan grandes cantidades de datos financieros para tomar decisiones rápidas y precisas.</p>
+
+        <img src="queesia.jpeg" class="img-fluid sombra" alt="Categorías de IA">
+    </section>
+
+    <hr class="my-5">
+
+    <!-- Futuro de la IA -->
+    <section data-aos="fade-up">
+        <h2>El futuro de la Inteligencia Artificial</h2>
+        <p>
+            La Inteligencia Artificial seguirá transformando todos los aspectos de nuestra vida. Algunas tendencias futuras incluyen:
+        </p>
+        <ul>
+            <li>IA explicable: sistemas capaces de justificar sus decisiones.</li>
+            <li>IA ética y responsable: desarrollo de algoritmos que respeten la privacidad y los derechos humanos.</li>
+            <li>IA multimodal: integración de texto, imagen, voz y video para generar contenidos más complejos.</li>
+            <li>Automatización avanzada: robots y sistemas inteligentes capaces de realizar tareas físicas y cognitivas de manera autónoma.</li>
+            <li>IA en educación: personalización de la enseñanza y tutorías inteligentes para cada estudiante.</li>
+        </ul>
+        <p>
+            En resumen, la IA tiene un enorme potencial, pero su desarrollo debe ser acompañado de ética, regulación y supervisión para evitar riesgos.
+        </p>
+    </section>
+
+    <div class="text-center mt-5">
+        <a href="#top" class="btn btn-primary">Volver arriba</a>
+    </div>
+
+</div>
+
+<footer class="text-center text-white py-3 bg-dark">
+    © 2025 - Proyecto sobre Inteligencia Artificial Benjamin Acosta
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 900 });
+</script>
+
+</body>
+</html>
+
