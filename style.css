@@ -110,13 +110,13 @@ table td, table th {
 
 /* ================== Imágenes ================== */
 .imagen-grande, .img-fluid.sombra {
-    display: block;          /* Para que la imagen esté en línea separada */
-    width: 100%;             /* Ocupa todo el ancho del contenedor */
-    max-width: 1200px;       /* Máximo ancho para no desbordar */
-    height: auto;            /* Mantiene proporción */
-    margin: 15px auto 30px;  /* Arriba 15px, abajo 30px, centrada horizontalmente */
-    border-radius: 10px;     /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Sombra suave */
+    display: block;         
+    width: 100%;             
+    max-width: 1200px;      
+    height: auto;            
+    margin: 15px auto 30px;  
+    border-radius: 10px;     
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
 }
 
 /* ================== Responsividad ================== */
@@ -125,3 +125,4 @@ table td, table th {
         font-size: 2rem;
     }
 }
+
